@@ -186,6 +186,7 @@ h1 {
 .hero-btns {
     display: flex;
     gap: 1.5rem;
+    flex-wrap: wrap;
 }
 
 .btn-primary {
@@ -426,6 +427,26 @@ h1 {
     margin-bottom: 3rem;
     max-width: 600px;
     margin-inline: auto;
+}
+
+.contact-info {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    margin-bottom: 0 !important;
+}
+
+.contact-info i {
+    color: var(--accent-blue);
+    width: 20px;
 }
 
 .social-links {
